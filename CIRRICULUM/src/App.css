@@ -1,0 +1,448 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0;
+  padding: 0;
+}
+
+.job-market-input {
+  max-width: 700px;
+  margin: 15px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+  backdrop-filter: blur(8px); /* Blurring the background */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ 
+
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.job-market-input {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color:#333;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+footer p{
+  color: white;
+}
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.App{
+  margin-right: 25%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #e9ecef;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #dee2e6;
+}
+
+h4 {
+  margin: 0;
+  color: #007bff;
+}
+
+p {
+  margin: 5px 0;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+}
+.one{
+  display: flex;
+  flex-direction: column;
+ background-color: #e9ecef;
+  width: 250px;
+  border-radius: 7px;
+  margin-left: 1%;
+  
+  padding-top: 3%;
+height: 100vh;
+}
+.two, .three , .four , .five{
+  display: flex;
+  
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 8px;
+  align-items: center;
+
+}
+.six{
+  margin-bottom: 20px;
+  display: none;
+  position: absolute;
+  left: 15px;
+  top :3px;
+  z-index: 1;
+}
+
+.seven{
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.home-container {
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background for content */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  margin-top: 20px ;
+  width: 100%;
+  margin-right: 0;
+}
+
+/* Hero Section */
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px white;
+}
+/* Style when the link is active */
+.seven::after {
+  content: ''; /* Required for pseudo-element */
+  position: absolute; /* Position it absolutely */
+  left: 20;
+  bottom: -5px; /* Position below the text */
+  width: 80%; /* Full width */
+  height: 2px; /* Thickness of the underline */
+  background-color: #007bff; /* Underline color */
+  transform: scaleX(0); /* Initially scale to 0 */
+  transition: transform 0.5s ease; /* Smooth transition */
+}
+.seven.activated::after {
+  transform: scaleX(1); /* Scale to full width */
+}
+ 
+
+.hero p {
+  font-size: 1.0rem;
+  margin-bottom: 30px;
+  color: white;
+}
+.butlink{
+  color: white;
+  
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  
+}
+
+.feature-item {
+  max-width: 300px;
+  text-align: center;
+  color: white;
+}
+
+.icon {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.feature-item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: white;
+}
+.come1 {
+  display: flex;}
+  .come1 li{
+  margin-left: 20px;
+}
+.come2 h2{
+  color: white;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.come2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.come{
+ 
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chartdiv{
+  display: flex;
+ margin-left: 40px;
+ color: white;
+
+}
+.chartdiv1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.chartsdiv2 h2{
+margin-left: 30%;
+ 
+}
+.mrk{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: 2px 2px 2px #333;
+  text-decoration: underline;
+  height: 200px;
+  margin-top: 20px;
+}
+.fedcont{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
+}
+/* src/App.css or FeedbackForm.css */
+.feedback-form {
+  margin-top: 20px;
+  width: 400px;
+}
+
+.feedback-form form {
+  display: flex;
+  flex-direction: column;
+}
+.hamnav{
+  display: flex;
+  background-color: white;
+  padding-top: 15px;
+}
+.hamnav div{
+  display: flex;
+ 
+ 
+}
+.sevens{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.sevens.activated{
+  text-decoration: underline;
+}
+
+.feedback-form label {
+  margin-top: 10px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-display {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fed{
+  display: flex;
+ 
+ 
+ 
+  justify-content: space-between;
+}
+
+.feddis {
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  background-color: white;
+  color: #007bff;
+ margin: 30px;
+ padding: 10px;
+  
+}
+@media (max-width: 480px) {
+  body{
+  background-image: url(./ff.jpeg);}
+ .come2 {
+ display: flex;
+
+ }
+  .six{
+    display: flex;
+    position: fixed;
+  }
+  .one {
+    display: none;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .App h1{
+    font-size:25px;
+  }
+  .chartdiv{
+   display: block;
+  }
+  .home-container{
+   margin-top: 0;
+   justify-content: center;
+    width: 90vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .fedcont{
+    width: 100vw;
+  }
+  .feddis{
+    margin: 10px;
+  }
+  .job-market-input{
+    width: 90vw;
+  }
+  .come1{
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+  }
+  .hero h1{
+    font-size: 4rem;
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+    margin-left:200 px;
+  }
+  .laini{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+}
